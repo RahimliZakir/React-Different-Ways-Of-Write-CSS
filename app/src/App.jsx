@@ -3,6 +3,7 @@ import React from "react";
 import InlineStyles from "./components/InlineStyles";
 import PlainCss from "./components/PlainCss";
 import WithSass from "./components/WithSass";
+import CssModule from "./components/module/CssModule";
 
 const App = () => {
   return (
@@ -12,6 +13,8 @@ const App = () => {
       <PlainCss />
       <hr />
       <WithSass />
+      <hr />
+      <CssModule />
     </div>
   );
 };

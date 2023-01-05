@@ -1,0 +1,15 @@
+/** For Css Module Logic */
+
+.root {
+  border: 1px solid dotted;
+}
+
+.first {
+  color: indigo;
+}
+
+.second {
+  background-color: indigo;
+  color: white;
+  padding: 0 2.5%;
+}
