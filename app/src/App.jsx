@@ -2,6 +2,7 @@ import React from "react";
 
 import InlineStyles from "./components/InlineStyles";
 import PlainCss from "./components/PlainCss";
+import WithSass from "./components/WithSass";
 
 const App = () => {
   return (
@@ -9,6 +10,8 @@ const App = () => {
       <InlineStyles />
       <hr />
       <PlainCss />
+      <hr />
+      <WithSass />
     </div>
   );
 };
